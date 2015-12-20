@@ -29,4 +29,5 @@
         completions."
     </string>
     <string name="title_activity_screen">Screen</string>
+    <string name="title_activity_splash_screen">COM</string>
 </resources>
