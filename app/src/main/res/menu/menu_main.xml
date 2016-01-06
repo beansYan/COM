@@ -1,18 +1,29 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.ziyu16901.com.MainActivity" >
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
-
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/ab_search"
-        android:orderInCategory="80"
-        android:title="action_search"
-        app:actionViewClass="android.support.v7.widget.SearchView"
-        app:showAsAction="ifRoom"/>
+        android:id="@+id/action_search"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:title="@string/menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView">
+    </item>
 
-
+    <item android:id="@+id/action_more"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:title="@string/menu_more"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/note"
+                android:title="@string/menu_note" />
+            <item
+                android:id="@+id/about"
+                android:title="@string/menu_about" />
+            <item
+                android:id="@+id/exit"
+                android:title="@string/menu_exit" />
+        </menu>
+    </item>
 </menu>

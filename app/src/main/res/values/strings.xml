@@ -7,8 +7,26 @@
     bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
     cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
     the big cheese.</string>
+
+  <string name="con_introduce2">校女大学生军乐团创建于2000年3月1日，是我国高校第一支女大学生军乐团，也是江西省第一支女子军乐团。
+    军乐团团员全部是非音乐专业的女大学生，她们来自江西师大文、理科等22个学院。她们个个品学兼优，绝大多数都是三好学生、优秀学生干部、
+    奖学金获得者。在学校领导的关心和支持下，在全省一流的铜管、木管、打击乐演奏家的悉心指导下，全体团员从不懂乐理、不识简谱，
+    从未接触乐器开始，凭着对艺术的执着追求和顽强刻苦的精神，经过严格而科学的训练，现已能圆熟地演奏《中华人民共和国国歌》、
+    《国际歌》、《拉德茨基》等20多首中外名曲。</string>
+
+
+  <!-- Strings related to note -->
+  <string name="note_name">活动备忘录</string>
+  <string name="note_prompt1">请输入备忘主题</string>
+  <string name="note_prompt2">请输入备忘内容</string>
+
+  <!-- Strings related to menu -->
     <string name="checkin">Checkin</string>
-    <string name="menu_settings">Settings</string>
+  <string name="menu_search">搜索</string>
+  <string name="menu_more">更多</string>
+    <string name="menu_note">备忘录</string>
+  <string name="menu_about">关于我们</string>
+  <string name="menu_exit">退出</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -30,4 +48,8 @@
     </string>
     <string name="title_activity_screen">Screen</string>
     <string name="title_activity_splash_screen">COM</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_main_show">MainShow</string>
+    <string name="title_activity_look">Look</string>
+    <string name="title_activity_share_to_we_chat">ShareToWeChat</string>
 </resources>

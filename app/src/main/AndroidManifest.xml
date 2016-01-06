@@ -6,13 +6,17 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 联网权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:supportsRtl="true" >
+
+        <!-- android:theme="@style/AppTheme" -->
         <activity
             android:name=".SplashScreen"
             android:label="@string/title_activity_splash_screen"
@@ -23,21 +27,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".Login"
             android:label="@string/title_activity_login" />
-
+        <activity
+            android:name=".Note.NoteActivity"
+            android:label="@string/title_activity_note"
+            android:theme="@style/AppTheme.ActionBar" >
+        </activity>
+        <activity
+            android:name=".Note.MainShow"
+            android:label="@string/title_activity_main_show"
+            android:theme="@style/AppTheme.ActionBar" >
+        </activity>
+        <activity
+            android:name=".Note.Look"
+            android:label="@string/title_activity_look"
+            android:theme="@style/AppTheme.ActionBar" >
+        </activity>
+        <activity
+            android:name=".Share.ShareToWeChat"
+            android:label="@string/title_activity_share_to_we_chat"
+            android:theme="@style/AppTheme" >
+        </activity>
     </application>
 
 </manifest>
